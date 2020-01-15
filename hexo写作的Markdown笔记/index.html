@@ -72,16 +72,16 @@
 <meta name="keywords" content="blog,note">
 <meta property="og:type" content="article">
 <meta property="og:title" content="blog写作的一些笔记">
-<meta property="og:url" content="https://yuyushu.online/hexo写作的Markdown笔记/index.html">
+<meta property="og:url" content="http://yuyushu.online/hexo写作的Markdown笔记/index.html">
 <meta property="og:site_name" content="鱼鱼书  ❤  菜子">
 <meta property="og:description" content="写作介绍字体介绍这是斜体 或 这也是斜体这是粗体这是加粗斜体这是删除线 超链接写法： 行内形式：我的博客参考形式：[我的博客][1]，有一个很好的平台-[简书][2][1]:https://xfbxfbxfb.github.io/[2]:http://www.jianshu.com/自动链接：我的博客地址https://xfbxfbxfb.github.io/">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-01-15T01:59:03.218Z">
+<meta property="og:updated_time" content="2020-01-15T02:20:55.961Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="blog写作的一些笔记">
 <meta name="twitter:description" content="写作介绍字体介绍这是斜体 或 这也是斜体这是粗体这是加粗斜体这是删除线 超链接写法： 行内形式：我的博客参考形式：[我的博客][1]，有一个很好的平台-[简书][2][1]:https://xfbxfbxfb.github.io/[2]:http://www.jianshu.com/自动链接：我的博客地址https://xfbxfbxfb.github.io/">
   <link rel="alternate" href="/atom.xml" title="鱼鱼书  ❤  菜子" type="application/atom+xml">
-  <link rel="canonical" href="https://yuyushu.online/hexo写作的Markdown笔记/">
+  <link rel="canonical" href="http://yuyushu.online/hexo写作的Markdown笔记/">
 
 
 <script id="page.configurations">
@@ -125,7 +125,7 @@
   </style>
 </noscript>
 
-</head>
+<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"></script></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
@@ -300,7 +300,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://yuyushu.online/hexo写作的Markdown笔记/">
+    <link itemprop="mainEntityOfPage" href="http://yuyushu.online/hexo写作的Markdown笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="yuyushu">
@@ -347,7 +347,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2020-01-14 20:59:03" itemprop="dateModified" datetime="2020-01-14T20:59:03-05:00">2020-01-14</time>
+                <time title="修改时间：2020-01-14 21:20:55" itemprop="dateModified" datetime="2020-01-14T21:20:55-05:00">2020-01-14</time>
               </span>
             
           
@@ -449,6 +449,13 @@
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var executeSync = function()&#123;</span><br><span class="line">  var args = Array.prototype.slice.call(arguments);</span><br><span class="line">  if (typeof args[0] === 'function')&#123;</span><br><span class="line">    args[<span class="number">0</span>].apply(null, args.splice(<span class="number">1</span>));</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p>[这是一个链接][1]<br>[1]: <a href="https://11.tt" target="_blank" rel="noopener">https://11.tt</a><br><a href="#7-Cite">回到Cite</a></p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><p>第一种是利用hexo-tag-dplayer插件，效果如下：</p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://video-1259610394.cos.na-toronto.myqcloud.com/%E3%80%8A%E6%88%91%E5%96%9C%E6%AC%A2%E3%80%8B-%20%E4%B8%8A%E6%B5%B7%E5%BD%A9%E8%99%B9%E5%AE%A4%E5%86%85%E5%90%88%E5%94%B1%E5%9B%A2-npPrO-xLnuE.mkv","pic":"https://i.ytimg.com/vi/npPrO-xLnuE/maxresdefault.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<p>再就是各大视频网站都提供<code>embed</code>的iframe代码，直接插入post即可：</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/npPrO-xLnuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="900" height="600" src="//player.bilibili.com/player.html?aid=9141774&cid=15102406&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
     </div>
       
@@ -691,7 +698,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#写作介绍"><span class="nav-number">1.</span> <span class="nav-text">写作介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#字体介绍"><span class="nav-number">1.1.</span> <span class="nav-text">字体介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#超链接"><span class="nav-number">1.2.</span> <span class="nav-text">超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-列表"><span class="nav-number">1.3.</span> <span class="nav-text">4,列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入图片"><span class="nav-number">1.4.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格"><span class="nav-number">1.5.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cite"><span class="nav-number">1.6.</span> <span class="nav-text">Cite</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码标记"><span class="nav-number">1.7.</span> <span class="nav-text">代码标记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#行内代码标记"><span class="nav-number">1.7.1.</span> <span class="nav-text">行内代码标记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码块标记"><span class="nav-number">1.7.2.</span> <span class="nav-text">代码块标记</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Link"><span class="nav-number">1.8.</span> <span class="nav-text">Link</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#写作介绍"><span class="nav-number">1.</span> <span class="nav-text">写作介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#字体介绍"><span class="nav-number">1.1.</span> <span class="nav-text">字体介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#超链接"><span class="nav-number">1.2.</span> <span class="nav-text">超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-列表"><span class="nav-number">1.3.</span> <span class="nav-text">4,列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#插入图片"><span class="nav-number">1.4.</span> <span class="nav-text">插入图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表格"><span class="nav-number">1.5.</span> <span class="nav-text">表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cite"><span class="nav-number">1.6.</span> <span class="nav-text">Cite</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码标记"><span class="nav-number">1.7.</span> <span class="nav-text">代码标记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#行内代码标记"><span class="nav-number">1.7.1.</span> <span class="nav-text">行内代码标记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码块标记"><span class="nav-number">1.7.2.</span> <span class="nav-text">代码块标记</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Link"><span class="nav-number">1.8.</span> <span class="nav-text">Link</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#视频"><span class="nav-number">1.9.</span> <span class="nav-text">视频</span></a></li></ol></li></ol></div>
             
 
           </div>

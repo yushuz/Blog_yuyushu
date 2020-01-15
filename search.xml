@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我喜欢……</title>
+    <title>I_like</title>
     <url>/I-like/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>最近发现的歌，感觉特别温柔亲切。顺便记录下在blog插入视频的方法。</p>
-<p>第一种是利用hexo-tag-dplayer插件，效果如下：</p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://video-1259610394.cos.na-toronto.myqcloud.com/%E3%80%8A%E6%88%91%E5%96%9C%E6%AC%A2%E3%80%8B-%20%E4%B8%8A%E6%B5%B7%E5%BD%A9%E8%99%B9%E5%AE%A4%E5%86%85%E5%90%88%E5%94%B1%E5%9B%A2-npPrO-xLnuE.mkv","pic":"https://i.ytimg.com/vi/npPrO-xLnuE/maxresdefault.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
-
-<p>再就是各大视频网站都提供<code>embed</code>的iframe代码，直接插入post即可：</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/npPrO-xLnuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="900" height="600" src="//player.bilibili.com/player.html?aid=9141774&cid=15102406&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
   </entry>
   <entry>
     <title>hexo+Next搭建相册</title>
@@ -183,6 +175,13 @@
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">var executeSync = function()&#123;</span><br><span class="line">  var args = Array.prototype.slice.call(arguments);</span><br><span class="line">  if (typeof args[0] === 'function')&#123;</span><br><span class="line">    args[<span class="number">0</span>].apply(null, args.splice(<span class="number">1</span>));</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><p>[这是一个链接][1]<br>[1]: <a href="https://11.tt" target="_blank" rel="noopener">https://11.tt</a><br><a href="#7-Cite">回到Cite</a></p>
+<h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><p>第一种是利用hexo-tag-dplayer插件，效果如下：</p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://video-1259610394.cos.na-toronto.myqcloud.com/%E3%80%8A%E6%88%91%E5%96%9C%E6%AC%A2%E3%80%8B-%20%E4%B8%8A%E6%B5%B7%E5%BD%A9%E8%99%B9%E5%AE%A4%E5%86%85%E5%90%88%E5%94%B1%E5%9B%A2-npPrO-xLnuE.mkv","pic":"https://i.ytimg.com/vi/npPrO-xLnuE/maxresdefault.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<p>再就是各大视频网站都提供<code>embed</code>的iframe代码，直接插入post即可：</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/npPrO-xLnuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="900" height="600" src="//player.bilibili.com/player.html?aid=9141774&cid=15102406&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ]]></content>
       <tags>
         <tag>blog</tag>
