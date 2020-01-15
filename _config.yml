@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yuyushu.online
+url: https://yuyushu.online
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :title/
@@ -84,8 +84,8 @@ theme: next #maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yushuz/yushuz.github.io.git
-  branch: master
+  repo: https://github.com/yushuz/Blog_yuyushu.git
+  branch: run-page
 
 #-------------------------------------
 # hexo-generator-searchdb@1.0.8
