@@ -1,0 +1,155 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: 鱼鱼书  ❤  菜子
+subtitle: u r my sunshine
+description:
+keywords:
+author: yuyushu
+language: zh-CN
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yuyushu.online
+root: /
+#permalink: :year/:month/:day/:title/
+permalink: :title/
+permalink_defaults:
+#permalink: posts/:abbrlink.html
+#abbrlink:
+#  alg: crc32  # 算法：crc16(default) and crc32
+#  rep: hex    # 进制：dec(default) and hex
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
+theme: next #maupassant
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/yushuz/yushuz.github.io.git
+  branch: master
+
+#-------------------------------------
+# hexo-generator-searchdb@1.0.8
+search:
+  path: search.xml
+  field: post
+  format: html
+  content: true
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: hijiki
+#    hHeadPos: 0.8
+#    vHeadPos: 0.618
+  display:
+    position: right
+    width: 190
+    height: 380
+    hOffset: 0
+    vOffset: -30
+#    superSample: 2
+  mobile:
+    show: false
+    scale: 0.8
+  react:
+    opacity: 1.0
+    opacityOnHover: 0.2
+
+#--------douban-----------
+douban:
+  user: yushu7998
+  builtin: true
+  #  book:
+  #    title: 'This is my book title'
+  #    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+    #  game:
+    #    title: 'This is my game title'
+    #    quote: 'This is my game quote'
+  timeout: 10000
+
+baidusitemap:
+    path: baidusitemap.xml
+
+#-----------------google photos---------------
+googlePhotosAlbum:
+  descriptionLength: 140
+  target: _blank
+  rel: noopener
+  className: google-photos-album-area
+  enableDefaultStyle: true
+  defaultStyle: google_photos_album.css
+  largeSizeThreshold: 768
+  largeSize:  =s1920-no
+  mediumSize: =s720-no
+  smallSize:  =w225-no
+  maxPics: 999
+  generateAlways: false
