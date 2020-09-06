@@ -1,8 +1,0 @@
-+ googleapis@59.0.0
-added 28 packages from 30 contributors, updated 3 packages, moved 28 packages and audited 1617 packages in 12.217s
-
-12 packages are looking for funding
-  run `npm fund` for details
-
-found 98 vulnerabilities (78 low, 9 moderate, 11 high)
-  run `npm audit fix` to fix them, or `npm audit` for details
