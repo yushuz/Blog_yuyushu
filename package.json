@@ -9,6 +9,7 @@
     "acorn": "^7.1.1",
     "axios": "^0.19.1",
     "babel-eslint": "^10.0.3",
+    "base64url": "^3.0.1",
     "bl": "^4.0.3",
     "clean-css": "^4.2.1",
     "cryptiles": "^4.1.3",
