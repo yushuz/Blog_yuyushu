@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "4.2.0"
+    "version": "4.2.1"
   },
   "dependencies": {
     "acorn": "^7.1.1",
@@ -18,7 +18,7 @@
     "eslint": "^6.8.0",
     "googleapis": "^59.0.0",
     "hawk": "^7.0.10",
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.1",
     "hexo-abbrlink": "^2.2.1",
     "hexo-asset-image": "^1.0.0",
     "hexo-deployer-git": "^2.1.0",
@@ -50,6 +50,7 @@
     "minimist": "^1.2.5",
     "prismjs": "^1.21.0",
     "serialize-javascript": "^4.0.0",
+    "ssri": "^8.0.1",
     "webpack": "^4.44.1"
   }
 }
