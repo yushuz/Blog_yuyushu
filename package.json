@@ -49,6 +49,7 @@
     "image-size": "^0.7.5",
     "minimist": "^1.2.5",
     "prismjs": "^1.23.0",
+    "pug": "^3.0.1",
     "pug-code-gen": "^2.0.3",
     "serialize-javascript": "^4.0.0",
     "ssri": "^8.0.1",
