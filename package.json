@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "acorn": "^7.1.1",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "base64url": "^3.0.1",
     "bl": "^4.0.3",
@@ -49,6 +49,7 @@
     "image-size": "^0.7.5",
     "minimist": "^1.2.5",
     "prismjs": "^1.21.0",
+    "pug-code-gen": "^2.0.3",
     "serialize-javascript": "^4.0.0",
     "ssri": "^8.0.1",
     "webpack": "^4.44.1"
